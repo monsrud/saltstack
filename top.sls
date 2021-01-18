@@ -1,5 +1,0 @@
-base:
-  '*':
-    - users
-    - sshd
-    - sudo

@@ -102,6 +102,7 @@ test.version
 
 Devops Library SaltStack Training
 
-A
-A
+#refresh pillar
+salt-call saltutil.refresh_pillar
+
 

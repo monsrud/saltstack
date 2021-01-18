@@ -1,0 +1,40 @@
+
+configure ntp or chronyd
+configure name servers
+
+configure nfs mounts
+
+configure firewall
+
+configure se linux
+
+add specific users, passwords and ssh keys
+add specfic users to sudoers
+
+packages:
+   pkg.installed:
+      - pkgs:
+         - cifs-utils 
+         - curl 
+         - ethtool
+         - fping 
+         - git
+         - tcpdump
+         - wget 
+
+#         - arp-scan
+#         - dnsutils
+#         - ftp 
+#         - telnet
+Saltstack repos
+
+
+
+https://github.com/simpIeweblogic/saltstack
+
+
+https://github.com/dkilcy/saltstack-base
+
+
+
+
