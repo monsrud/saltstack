@@ -3,10 +3,10 @@ user_list:
   [
     {
     'name':'lab',
-    'shell':'/bin/sh',
+    'shell':'/bin/bash',
     'group':'lab',
     'ssh_public_key': '',
-    'password': '$6$v55sJXEO$JSjfTrRt9RhT627taKzL53g9xyhUF3MLQmEPFAe66d/e7WoFLZ8C08qyvSbrYol6YSW.lbVMk/q5rnTYo5EE91'
+    'password': '$6$V00KPTU4$N.SaV5Zjk7nx6CWkmfAL.5HqERWXI9aHDfiSKwOzV.4bg3tRLyLZFpgB7hfvQdRlXfFhvw02hy13GTWGfkj.6.'
     }
   ]
 

@@ -4,6 +4,8 @@
 # Install Saltstack 
 
 These instructions assume firewalls have been disabled on the master/minions.
+Ports can also be opened
+https://docs.saltproject.io/en/latest/topics/tutorials/firewall.html
 
 On the master, set the hostname to salt. Add an entry for this host in /etc/hosts.
 
@@ -105,4 +107,4 @@ Devops Library SaltStack Training
 #refresh pillar
 salt-call saltutil.refresh_pillar
 
-
+The Salt master uses ports 4505 and 4506, which must be opened to accept incoming connections. (port 4505) All Salt minions establish a persistent connection to the publisher port where they listen for messages.
