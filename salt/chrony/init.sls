@@ -11,3 +11,8 @@ chrony_package:
     - source:
       - 'salt://chrony/files/chrony.conf'
 {% endif %} 
+
+
+#Etc/UTC:
+#  timezone.system:
+#    - utc: True
