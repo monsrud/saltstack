@@ -6,16 +6,20 @@ sshd_package:
 ssh:
   service.running:
     - enable: True
+    - reload: True
 
 {% elif grains['os'] == 'Alpine' %}
 sshd:
   service.running:
     - enable: True
+    - reload: True
 {% endif %}
 
 /etc/ssh/sshd_config:
   file.managed:
     - source:
       - 'salt://sshd/files/sshd_config'
+    - user: root
+    - mode: 600
 
 
