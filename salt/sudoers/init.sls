@@ -1,8 +1,9 @@
-#/etc/sudoers.d/wheel:
-#  file.managed:
-#    - user: root
-#    - group: root
-#    - mode: 640
-#    - contents: "%wheel     ALL=(ALL)     NOPASSWD: ALL\n"
-#    - require:
-#      - group: wheel
+# install a generic sudoers file
+/etc/sudoers:
+  file.managed:
+    - source:
+      - 'salt://sudoers/files/sudoers'
+    - mode: 440 
+    - user: root
+    - group: root
+

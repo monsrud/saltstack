@@ -107,4 +107,16 @@ Devops Library SaltStack Training
 #refresh pillar
 salt-call saltutil.refresh_pillar
 
+# set state
+salt '*' state.apply
+
+
 The Salt master uses ports 4505 and 4506, which must be opened to accept incoming connections. (port 4505) All Salt minions establish a persistent connection to the publisher port where they listen for messages.
+
+
+
+Training:
+
+Salt Documentation https://docs.saltproject.io/en/latest/contents.html
+
+Udemy: Learning Salt by Packt Publishing  also https://www.packtpub.com/product/learning-salt-video/9781785884368

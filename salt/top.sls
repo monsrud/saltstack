@@ -3,6 +3,7 @@ base:
     - users
     - sshd 
     - chrony
+    - sudoers
 
 
 

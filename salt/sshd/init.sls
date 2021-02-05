@@ -23,3 +23,4 @@ sshd:
     - mode: 600
 
 
+# TODO: install keys for specific users in pillar file
