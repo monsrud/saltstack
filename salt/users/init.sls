@@ -6,10 +6,11 @@
     - shell: {{ user.shell }}
     - password: {{ user.password }}
 
-#  file.managed:
-#    - name: /etc/sudoers.d/{{ user.name }}
-#    - contents: |
-#        {{ user.name }} ALL=(ALL)  NOPASSWD: ALL
+  # add the user to /etc/sudoers.d/
+  file.managed:
+    - name: /etc/sudoers.d/{{ user.name }}
+    - contents: |
+        {{ user.name }} ALL=(ALL)  NOPASSWD: ALL
 {% endfor %}
 
 
