@@ -117,6 +117,22 @@ The Salt master uses ports 4505 and 4506, which must be opened to accept incomin
 
 Training:
 
-Salt Documentation https://docs.saltproject.io/en/latest/contents.html
+* [Salt Documentation](https://docs.saltproject.io/en/latest/contents.html)
+* [Mastering Saltstack](https://www.udemy.com/course/mastering-saltstack-from-ground-to-cloud/)
+* [Learning Salt Stack - From zero to hero!](https://www.youtube.com/watch?v=5tkyEfIb-44)
+* [Learning Salt by Packt Publishing](https://www.packtpub.com/product/learning-salt-video/9781785884368) (didn't try this one...)
 
-Udemy: Learning Salt by Packt Publishing  also https://www.packtpub.com/product/learning-salt-video/9781785884368
+Related Repos:
+
+* https://github.com/simpIeweblogic/saltstack
+* https://github.com/dkilcy/saltstack-base
+
+
+Possible Future Training:
+
+
+
+TODO:
+
+- disable ipv6
+- disable selinux
